@@ -1,4 +1,4 @@
-# fakefriends
+# fakefriends.cc
 <center>
 
 <p align="middle">
