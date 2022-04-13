@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000001"/>
+  <meta property="og:locale" content="pt-BR" />
+  <meta data-react-helmet="true" property="og:title" content="fakefriends.cc"/>
+  <meta data-react-helmet="true" property="og:description" content="minha familia tem dinheiro, sou herdeiro"/>
+  <link rel="shortcut icon" href="https://i.imgur.com/nq4He5z.png" type="image/gif">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="text/javascript" src="assets/js/avatar.js"></script>
+  <script type="text/javascript" src="assets/js/anti-f12.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="at-section">
+
+
+  <div class="at-server__avatar">
+  <img src="https://media.discordapp.net/attachments/956725701350924318/963787607207182396/a_936c09f9adf513d919ebe1199e177d29.gif" alt=""/>
+  </div>
+
+    <div class="at-section__title"> Fake Friends </div>
+  </div>
+  <div id="button" style="cursor:pointer" onclick="servidor()">Servidor</div>
+  <div id="button" style="cursor:pointer" onclick="musica()">Musica</div>
+  <script>
+    const servidor = () => window.open('https://discord.gg/fakefriends', '_blank');
+    document.body.style.backgroundColor = `#000001`;
+    const musica = () => window.open('https://www.youtube.com/watch?v=ey8i_ose_3s', '_blank');
+ </script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <div class="at-grid" data-column="2">
+    <!---strolly-->
+    <a href="https://www.instagram.com/bielzmw/" target="blank">
+    <div class="at-column">
+      <div class="at-user">
+        <div class="at-user__avatar">
+          <img id="strolly" alt=""/>
+        </div>
+
+        <div class="at-user__name">
+          <a href="https://www.instagram.com/bielzmw/" target="blank">strolly#1337</a>
+          <br>
+          <a>👻</a></div>
+        <br>
+        </ul>
+      </div>
+    </div>
+  </a>
+    <!---strolly-->
+
+    <!---mozarte-->
+    <a href="https://www.instagram.com/mozarte458/" target="blank">
+  <div class="at-column">
+  <div class="at-user">
+    <div class="at-user__avatar">
+      <img id="mozarte" alt=""/>
+    </div>
+
+    <div class="at-user__name">
+      <a href="https://www.instagram.com/mozarte458/" target="blank">mozarte#0002</a>
+      <br>
+      <a>👻</a></div>
+    <br>
+    </ul>
+  </div>
+</div>
+</a>
+<!---mozarte-->
+
+    <!---focuss-->
+    <a href="https://steamcommunity.com/id/apoiador/" target="blank">
+  <div class="at-column">
+    <div class="at-user">
+      <div class="at-user__avatar">
+        <img id="focuss" alt=""/>
+      </div>
+  
+      <div class="at-user__name">
+        <a href="https://steamcommunity.com/id/apoiador/" target="blank">focuss#0001</a>
+        <br>
+        <a>👻</a></div>
+      <br>
+      </ul>
+    </div>
+  </div>
+  </a>
+  <!---focuss-->
+
+    <!---dudu-->
+    <a href="https://www.instagram.com/privzarc/" target="blank">
+  <div class="at-column">
+    <div class="at-user">
+      <div class="at-user__avatar">
+        <img id="dudu" alt=""/>
+      </div>
+  
+      <div class="at-user__name">
+        <a href="https://www.instagram.com/privzarc/" target="blank">nyo#1000</a>
+        <br>
+        <a>👻</a></div>
+      <br>
+      </ul>
+    </div>
+  </div>
+  </a>
+  <!---dudu-->
+
+<script>
+ var rev = "fwd";
+    function titlebar(val){
+        var msg  = "fakefriends 👻";
+        var res = " ";
+        var speed = 100;
+        var pos = val;
+        msg = ""+msg+"";
+        var le = msg.length;
+        if(rev == "fwd"){
+            if(pos < le){
+                pos = pos+1;
+                scroll = msg.substr(0,pos);
+                document.title = scroll;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "bwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+        else {
+            if(pos > 0) {
+                pos = pos-1;
+                var ale = le-pos;
+                scrol = msg.substr(ale,le);
+                document.title = scrol;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "fwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+    }
+    titlebar(0);
+    </script>
+
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<video id="video" autoplay="" loop="" muted="">
+  <source src="assets/back.mp4" type="video/webm">
+</video>
+
+
+</body>
+
+</html>
