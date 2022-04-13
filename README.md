@@ -2,8 +2,6 @@
 <center>
 
 <p align="middle">
-```py
-
 
 scammerlife@github
 ------------------
@@ -11,6 +9,3 @@ scammerlife@github
     Friends website theme
     Languages: Html5, CSS, JavaScript
     Avatars api: https://github.com/Hadi-Koubeissi/discord-web-api
-  
-```
-
